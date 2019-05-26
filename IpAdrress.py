@@ -19,7 +19,7 @@ dict = json.loads(jsinfo)
 for i,v in dict.items():
 	print(f'{Back.BLUE}{i} -----------> {v}\n ')
 print(Style.RESET_ALL) 
-welcoming('do you want to save info ')
+welcoming('do you want to save info ?')
 userinfo=input('[y/n] :')
 if userinfo =='Y' or userinfo=='y':
 	f=open('ipAdrress.txt','w')
